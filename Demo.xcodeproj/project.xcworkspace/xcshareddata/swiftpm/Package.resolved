@@ -1,0 +1,33 @@
+{
+  "originHash" : "564d4fa8cf0de07590349cdbbff833741b0863af885dde3b750f4aa03cc5fcde",
+  "pins" : [
+    {
+      "identity" : "designkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/elonfreedom/DesignKit.git",
+      "state" : {
+        "revision" : "5b142361a1cd4413c62e3feb7c31fec9f4d24f98",
+        "version" : "0.0.1"
+      }
+    },
+    {
+      "identity" : "jkswiftextension",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/JoanKing/JKSwiftExtension.git",
+      "state" : {
+        "revision" : "7d8a7c61a8316cb76c4e3f6d38d937b0df842836",
+        "version" : "2.6.8"
+      }
+    },
+    {
+      "identity" : "snapkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SnapKit/SnapKit.git",
+      "state" : {
+        "revision" : "2842e6e84e82eb9a8dac0100ca90d9444b0307f4",
+        "version" : "5.7.1"
+      }
+    }
+  ],
+  "version" : 3
+}
