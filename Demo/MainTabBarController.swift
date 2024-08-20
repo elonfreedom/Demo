@@ -14,24 +14,25 @@ class MainTabBarController: UITabBarController {
         super.viewDidLoad()
         setTabBar()
         addChildViewControllers()
+        preloadAllViewControllers()
     }
-    
-    func addChildViewControllers(){
+
+    func addChildViewControllers() {
         setChildViewController(NavChangeViewController(),
-                               title: "商城",
-                               imageName: "1.circle",
-                               selectedImageName: "1.circle")
+            title: "商城",
+            imageName: "1.circle",
+            selectedImageName: "1.circle")
         setChildViewController(NavChangeViewController(),
-                               title: "我的",
-                               imageName: "2.circle",
-                               selectedImageName: "2.circle")
- 
+            title: "我的",
+            imageName: "2.circle",
+            selectedImageName: "2.circle")
+
     }
-    
+
     func setChildViewController(_ childController: UIViewController,
-                                title: String,
-                                imageName: String,
-                                selectedImageName: String){
+        title: String,
+        imageName: String,
+        selectedImageName: String) {
 //        let item = UITabBarItem.init(title:title,
 //                                     image: UIImage(named: imageName)?.withRenderingMode(.alwaysOriginal),
 //                                     selectedImage:UIImage(named: selectedImageName)?.withRenderingMode(.alwaysOriginal))
@@ -44,7 +45,7 @@ class MainTabBarController: UITabBarController {
         addChild(navVc)
     }
 
-    func setTabBar(){
+    func setTabBar() {
         view.backgroundColor = .white
 //        let tabBar = UITabBar.appearance()
 //        tabBar.barTintColor = .tabbarBackgroundColor
@@ -53,6 +54,16 @@ class MainTabBarController: UITabBarController {
 //        tabBar.unselectedItemTintColor = UIColor.subTextColor
 //        tabBar.isTranslucent = false
 //        self.delegate = self
+    }
+
+    /// 强制加载所有子视图控制器的 view
+    func preloadAllViewControllers() {
+        guard let viewControllers = self.viewControllers else { return }
+
+        for viewController in viewControllers {
+            // 访问 viewController 的 view 属性，强制触发 viewDidLoad
+            let _ = viewController.view
+        }
     }
 
 
