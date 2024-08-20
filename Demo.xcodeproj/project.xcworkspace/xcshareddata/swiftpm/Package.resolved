@@ -1,13 +1,13 @@
 {
-  "originHash" : "564d4fa8cf0de07590349cdbbff833741b0863af885dde3b750f4aa03cc5fcde",
+  "originHash" : "7db2b7f919e5dd853bb91da133724158b60a4c08a21fe8a7dc9de23a770588ca",
   "pins" : [
     {
       "identity" : "designkit",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/elonfreedom/DesignKit.git",
       "state" : {
-        "revision" : "5b142361a1cd4413c62e3feb7c31fec9f4d24f98",
-        "version" : "0.0.1"
+        "revision" : "b04bcbfe3e42180ab7d40f70dd076b126771bec1",
+        "version" : "0.0.8"
       }
     },
     {

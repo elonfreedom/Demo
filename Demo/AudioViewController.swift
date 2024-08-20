@@ -8,7 +8,7 @@
 import UIKit
 import AVFoundation
 
-class ViewController: UIViewController {
+class AudioViewController: UIViewController {
     // 录音器
     private var audioRecorder: AVAudioRecorder?
     // 用于绘制波形的视图

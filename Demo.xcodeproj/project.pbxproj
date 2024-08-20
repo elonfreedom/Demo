@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		7A587AB42C6E434C0015C1F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A587AB32C6E434C0015C1F6 /* AppDelegate.swift */; };
 		7A587AB62C6E434C0015C1F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A587AB52C6E434C0015C1F6 /* SceneDelegate.swift */; };
-		7A587AB82C6E434C0015C1F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A587AB72C6E434C0015C1F6 /* ViewController.swift */; };
+		7A587AB82C6E434C0015C1F6 /* AudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A587AB72C6E434C0015C1F6 /* AudioViewController.swift */; };
 		7A587ABB2C6E434C0015C1F6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7A587ABA2C6E434C0015C1F6 /* Base */; };
 		7A587ABD2C6E434D0015C1F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A587ABC2C6E434D0015C1F6 /* Assets.xcassets */; };
 		7A587AC02C6E434D0015C1F6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7A587ABF2C6E434D0015C1F6 /* Base */; };
@@ -20,6 +20,10 @@
 		7A5D13102C7043D7000BCDC3 /* JKSwiftExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 7A5D130F2C7043D7000BCDC3 /* JKSwiftExtension */; };
 		7A5DDA102C7041120078B8C0 /* InsetLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5DDA0F2C7041120078B8C0 /* InsetLabel.swift */; };
 		7A7DFE5B2C6F8062005EC5A4 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7A7DFE5A2C6F8062005EC5A4 /* SnapKit */; };
+		7A90AA612C74CC9D00DBE692 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A90AA602C74CC9D00DBE692 /* MainTabBarController.swift */; };
+		7A90AA632C74D15700DBE692 /* DesignKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7A90AA622C74D15700DBE692 /* DesignKit */; };
+		7A90AA652C74D21500DBE692 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A90AA642C74D21500DBE692 /* NavigationController.swift */; };
+		7A90AA672C74E26100DBE692 /* NavChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A90AA662C74E26100DBE692 /* NavChangeViewController.swift */; };
 		7AA2AF812C6F76D2009DB062 /* TagsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA2AF802C6F76D2009DB062 /* TagsView.swift */; };
 /* End PBXBuildFile section */
 
@@ -44,7 +48,7 @@
 		7A587AB02C6E434C0015C1F6 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A587AB32C6E434C0015C1F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A587AB52C6E434C0015C1F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7A587AB72C6E434C0015C1F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A587AB72C6E434C0015C1F6 /* AudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioViewController.swift; sourceTree = "<group>"; };
 		7A587ABA2C6E434C0015C1F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A587ABC2C6E434D0015C1F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A587ABF2C6E434D0015C1F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +60,9 @@
 		7A587AD62C6E434D0015C1F6 /* DemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7A587AE32C6E4D380015C1F6 /* WaveformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveformView.swift; sourceTree = "<group>"; };
 		7A5DDA0F2C7041120078B8C0 /* InsetLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetLabel.swift; sourceTree = "<group>"; };
+		7A90AA602C74CC9D00DBE692 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		7A90AA642C74D21500DBE692 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		7A90AA662C74E26100DBE692 /* NavChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavChangeViewController.swift; sourceTree = "<group>"; };
 		7AA2AF802C6F76D2009DB062 /* TagsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +73,7 @@
 			files = (
 				7A7DFE5B2C6F8062005EC5A4 /* SnapKit in Frameworks */,
 				7A5D13102C7043D7000BCDC3 /* JKSwiftExtension in Frameworks */,
+				7A90AA632C74D15700DBE692 /* DesignKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +120,7 @@
 			children = (
 				7A587AB32C6E434C0015C1F6 /* AppDelegate.swift */,
 				7A587AB52C6E434C0015C1F6 /* SceneDelegate.swift */,
-				7A587AB72C6E434C0015C1F6 /* ViewController.swift */,
+				7A587AB72C6E434C0015C1F6 /* AudioViewController.swift */,
 				7A587AB92C6E434C0015C1F6 /* Main.storyboard */,
 				7A587ABC2C6E434D0015C1F6 /* Assets.xcassets */,
 				7A587ABE2C6E434D0015C1F6 /* LaunchScreen.storyboard */,
@@ -120,6 +128,9 @@
 				7A587AE32C6E4D380015C1F6 /* WaveformView.swift */,
 				7AA2AF802C6F76D2009DB062 /* TagsView.swift */,
 				7A5DDA0F2C7041120078B8C0 /* InsetLabel.swift */,
+				7A90AA602C74CC9D00DBE692 /* MainTabBarController.swift */,
+				7A90AA642C74D21500DBE692 /* NavigationController.swift */,
+				7A90AA662C74E26100DBE692 /* NavChangeViewController.swift */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -167,6 +178,7 @@
 			packageProductDependencies = (
 				7A7DFE5A2C6F8062005EC5A4 /* SnapKit */,
 				7A5D130F2C7043D7000BCDC3 /* JKSwiftExtension */,
+				7A90AA622C74D15700DBE692 /* DesignKit */,
 			);
 			productName = Demo;
 			productReference = 7A587AB02C6E434C0015C1F6 /* Demo.app */;
@@ -288,12 +300,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A587AB82C6E434C0015C1F6 /* ViewController.swift in Sources */,
+				7A587AB82C6E434C0015C1F6 /* AudioViewController.swift in Sources */,
+				7A90AA652C74D21500DBE692 /* NavigationController.swift in Sources */,
 				7AA2AF812C6F76D2009DB062 /* TagsView.swift in Sources */,
 				7A587AB42C6E434C0015C1F6 /* AppDelegate.swift in Sources */,
+				7A90AA612C74CC9D00DBE692 /* MainTabBarController.swift in Sources */,
 				7A587AB62C6E434C0015C1F6 /* SceneDelegate.swift in Sources */,
 				7A5DDA102C7041120078B8C0 /* InsetLabel.swift in Sources */,
 				7A587AE42C6E4D380015C1F6 /* WaveformView.swift in Sources */,
+				7A90AA672C74E26100DBE692 /* NavChangeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -678,6 +693,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 7AA2AF822C6F77BF009DB062 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		7A90AA622C74D15700DBE692 /* DesignKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7A6164392C70FB6E0095003D /* XCRemoteSwiftPackageReference "DesignKit" */;
+			productName = DesignKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
