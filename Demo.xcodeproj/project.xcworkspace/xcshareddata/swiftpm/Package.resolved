@@ -1,13 +1,13 @@
 {
-  "originHash" : "7db2b7f919e5dd853bb91da133724158b60a4c08a21fe8a7dc9de23a770588ca",
+  "originHash" : "696c1274df11d21570ce9176a86e9899e2563d3f82c0b6a126a5c34e597d83bd",
   "pins" : [
     {
-      "identity" : "designkit",
+      "identity" : "handyjson",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/elonfreedom/DesignKit.git",
+      "location" : "https://github.com/alibaba/HandyJSON.git",
       "state" : {
-        "revision" : "b04bcbfe3e42180ab7d40f70dd076b126771bec1",
-        "version" : "0.0.8"
+        "revision" : "dcf39cf062680ffa4fd0acb7f9117a97755c113f",
+        "version" : "5.0.2"
       }
     },
     {
@@ -26,6 +26,15 @@
       "state" : {
         "revision" : "2842e6e84e82eb9a8dac0100ca90d9444b0307f4",
         "version" : "5.7.1"
+      }
+    },
+    {
+      "identity" : "sqlite.swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/stephencelis/SQLite.swift.git",
+      "state" : {
+        "revision" : "a95fc6df17d108bd99210db5e8a9bac90fe984b8",
+        "version" : "0.15.3"
       }
     }
   ],

@@ -1,0 +1,6 @@
+[submodule "OFBaseKit"]
+	path = OFBaseKit
+	url = https://github.com/elonfreedom/OFBaseKit.git
+[submodule "OFAudio"]
+	path = OFAudio
+	url = https://github.com/elonfreedom/OFAudio.git
